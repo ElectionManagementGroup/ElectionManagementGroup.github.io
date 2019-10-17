@@ -2,6 +2,8 @@ html body {
     font-family: 'Raleway', sans-serif;
 }
 
-h1 {
+#home-title {
     font-weight: 300;
+    text-align: center;
+    margin-top: 5%;
 }
