@@ -2,8 +2,26 @@ html body {
     font-family: 'Raleway', sans-serif;
 }
 
+nav {
+    box-shadow: 5px 5px 10px #00000012;
+}
+
 #home-title {
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     margin-top: 5%;
 }
+
+#whoweare {
+    text-align: center;
+}
+
+#whoweare div img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#whoweare div h4 {
+    font-weight: 300;
+} 
