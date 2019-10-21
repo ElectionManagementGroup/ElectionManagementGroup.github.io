@@ -1,15 +1,24 @@
 html body {
     font-family: 'Raleway', sans-serif;
+    background: -webkit-gradient(linear, left top, right bottom, from(rgba(205,227,235,1)), to(rgba(20,58,82,1))) fixed;
+
 }
 
-nav {
-    box-shadow: 5px 5px 10px #00000012;
+.white-text{
+    color: white;
+}
+
+#full-nav {
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.25)
+}
+
+#nav-title {
+    letter-spacing: 8px;
 }
 
 #home-title {
     font-weight: 400;
     text-align: center;
-    margin-top: 5%;
 }
 
 #whoweare {
@@ -25,4 +34,8 @@ nav {
 
 #whoweare div h4 {
     font-weight: 300;
+}
+
+label{
+    font-size: 14pt;
 }

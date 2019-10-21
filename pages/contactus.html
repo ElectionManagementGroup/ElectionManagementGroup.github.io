@@ -12,6 +12,13 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!--favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png">
+    <link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#5bbad5">
+
     <script src='../scripts.js'></script>
 
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/4b08ca27371053d275b71c109/184ce2bb2fcdb89b5e8943215.js");</script>
@@ -19,36 +26,46 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item px-2">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link" href="whoweare.html">Who We Are</a>
-                </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link" href="whatwedo.html">What We Do</a>
-                </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link" href="whatwebelieve.html">What We Believe</a>
-                </li>
-                <li class="nav-item active px-2">
-                    <a class="nav-link" href="contactus.html">Contact Us <span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
+    
+    <div id="full-nav" class="pos-f-t">
+        <div class="bg-dark pt-4 pb-1 px-4">
+            <h1 id="nav-title" class="text-center text-white">Election Management Group</h4>
         </div>
-    </nav>
-
-    <div class="container-fluid" id="home-title">
-        <h1>Help us reach out to you</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarcontent" 
+                    aria-controls="navbarcontent" 
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarcontent">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="../home.html">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="whoweare.html">Who We Are</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="whatwedo.html">What We Do</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="whatwebelieve.html">What We Believe</a>
+                    </li>
+                    <li class="nav-item active px-2">
+                        <a class="nav-link" href="contactus.html">Contact Us <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <div style="text-align: center;" class="container-fluid p-5">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsV3SyY4u0C6CWklcT-hdAU4xcT1CEZcQPqCPOSVWpkpi2dg/viewform?embedded=true" width="640" height="751" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+    <div style="text-align: center;" class="container-fluid py-4 px-1">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsV3SyY4u0C6CWklcT-hdAU4xcT1CEZcQPqCPOSVWpkpi2dg/viewform?embedded=true" width="90%" height="751" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
