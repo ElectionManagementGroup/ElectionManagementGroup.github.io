@@ -4,10 +4,6 @@ html body {
 
 }
 
-.white-text{
-    color: white;
-}
-
 #full-nav {
     box-shadow: 0px 5px 10px rgba(0,0,0,0.25)
 }
@@ -38,4 +34,23 @@ html body {
 
 label{
     font-size: 14pt;
+}
+
+a,
+a > h2,
+a > h4,
+a > img{
+    text-decoration: none !important;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a > img:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
